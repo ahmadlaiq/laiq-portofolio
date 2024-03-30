@@ -1,0 +1,89 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Skills"
+  description="Skilll and technology stack that I have learned and used in my projects."
+  keywords="code contributions,developer advocate, open source collaboration, problem solver, software development, laravel developer, react developer, full stack developer, javascript developer, web developer, software engineer"
+  image="/favicon.svg"
+>
+  <section>
+    <div class="container">
+      <div class="content">
+        <h1>Skills and technologies</h1>
+        <div class="grid">
+          <ul>
+            <h2>Front End Development:</h2>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Bootstrap</li>
+            <li>Tailwind CSS</li>
+            <li>jQuery</li>
+            <li>AlpineJS</li>
+            <li>Astro (this website was built with it)</li>
+            <li>Livewire</li>
+          </ul>
+          <ul>
+            <h2>Back End Devlopment:</h2>
+            <li>PHP</li>
+            <li>Laravel</li>
+            <li>NodeJS (Express)</li>
+            <li>RESTful API</li>
+            <li>GraphQL</li>
+            <li>JWT</li>
+            <li>Websockets</li>
+            <li>Databases (PostgreSQL, MySQL)</li>
+            <li>Content management systems (CMS)</li>
+            <li>API Documentation (Swagger)</li>
+            <li>Design Pattern (Repository, Service)</li>
+          </ul>
+          <ul>
+            <h2>DevOps:</h2>
+            <li>Versioning Control System (GIT)</li>
+            <li>CI/CD</li>
+            <li>Docker</li>
+            <li>Linux Server Management (Ubuntu)</li>
+            <li>Web Hosting</li>
+          </ul>
+          <ul>
+            <h2>Other:</h2>
+            <li>AppSheet</li>
+            <li>AppScript</li>
+            <li>Spreadsheet</li>
+            <li>IBM SPSS Statistic</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  section {
+    padding-bottom: 30px;
+  }
+  div {
+    margin-bottom: 20px;
+  }
+  .grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr auto;
+  }
+  @media screen and (max-width: 640px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  .grid li {
+    flex: 50%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  ul {
+    margin-left: 30px;
+  }
+</style>

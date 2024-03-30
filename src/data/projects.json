@@ -1,0 +1,45 @@
+[
+    {
+      "section": "Engineering Projects",
+      "projects": [
+      {
+        "name": "Internal System Aliansyah ERP",
+        "description": "Internal System Aliansyah ERP is a system designed to facilitate the management of company data, from the management of company employees, customers, suppliers, products, sales, purchases, and other data.",
+        "link": "/",
+        "image": "/",
+        "technologies": ["Laravel", "Bootstrap", "jQuery","MySQL", " RESTful API", "Alpine.js", "Livewire", "Api Documenation", "Design Pattern", "Gihub CI/CD", "AppScript", "Google Sheet API"]
+      },
+      {
+        "name": "PPS Fathul Ulum CMS",
+        "description": "PPS Fathul Ulum CMS is a Content Management System (CMS) designed to facilitate the management of school websites, from the management of school profiles, news, events, galleries, and other content.",
+        "link": "https://fatchululumpacet.net/",
+        "imageUrl": "/",
+        "technologies": ["Laravel", "Bootstrap","jQuery", "MySQL"]
+      },
+        {
+          "name": "PPDB PPS Fathul Ulum",
+          "description":"PPDB PPS Fathul Ulum is a service system designed to facilitate the automation of the implementation of New Student Admissions (PPDB), from the new student registration process, selection to announcement of selection results through the system.",
+          "link": "https://psb.fatchululumpacet.net/",
+          "image": "https://ik.imagekit.io/ahamadlaiq/ppdb-pps-fathul-ulum_7bxlvjMv5.png?updatedAt=1711779724971",
+          "technologies":  ["Laravel", "Bootstrap","jQuery", "MySQL"]
+        },
+        {
+          "name": "Point Of Sales",
+          "description": "Point of Sale (POS) System is basically a management system for store, where a system user can add, update and delete item from menu and generate bills.",
+          "link": "/",
+          "image": "https://ik.imagekit.io/ahmadlaiq/https://ik.imagekit.io/ahamadlaiq/alter-admin_0EQfSioZT.png?updatedAt=1711779724742",
+          "technologies": ["Laravel", "Bootstrap", "jQuery", "MySQL"]
+        },
+        {
+          "name": "Wild vs No Wild Classification",
+          "description": "Wild vs No Wild : Flask app Using Convolutional Neural Network (CNN) to recognize wild vs no wild animal with very high accuracy up to 95%",
+          "link": "/",
+          "image": "https://ik.imagekit.io/ahamadlaiq/wild-vs-nowild_pGRcgpiAQ.jpg?updatedAt=1711779724924",
+          "technologies": ["Python", "Tensorflow", "Flask" ]
+        }
+  
+      ]
+    }
+  ]
+  
+  
