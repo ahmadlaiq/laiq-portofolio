@@ -7,14 +7,14 @@
         "description": "Internal System Aliansyah ERP is a system designed to facilitate the management of company data, from the management of company employees, customers, suppliers, products, sales, purchases, and other data.",
         "link": "/",
         "image": "/",
-        "technologies": ["Laravel", "Bootstrap", "jQuery","MySQL", " RESTful API", "Alpine.js", "Livewire", "Api Documenation", "Design Pattern", "Gihub CI/CD", "AppScript", "Google Sheet API"]
+        "technologies": ["Laravel", "Bootstrap", "jQuery","MySQL", " RESTful API", "Alpine.js", "Livewire", "Api Documenation", "Design Pattern", "Unit Test","Gihub CI/CD", "AppScript", "Google Sheet API"]
       },
       {
         "name": "PPS Fathul Ulum CMS",
         "description": "PPS Fathul Ulum CMS is a Content Management System (CMS) designed to facilitate the management of school websites, from the management of school profiles, news, events, galleries, and other content.",
         "link": "https://fatchululumpacet.net/",
         "imageUrl": "/",
-        "technologies": ["Laravel", "Bootstrap","jQuery", "MySQL"]
+        "technologies": ["Laravel", "Bootstrap","jQuery", "MySQL", "Unit Test", "Gihub CI/CD"]
       },
         {
           "name": "PPDB PPS Fathul Ulum",
