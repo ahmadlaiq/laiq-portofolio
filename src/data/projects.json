@@ -24,7 +24,7 @@
           "technologies":  ["Laravel", "Bootstrap","jQuery", "MySQL"]
         },
         {
-          "name": "Point Of Sales",
+          "name": "Apotek Vina Point Of Sales",
           "description": "Point of Sale (POS) System is basically a management system for store, where a system user can add, update and delete item from menu and generate bills.",
           "link": "/",
           "image": "https://ik.imagekit.io/ahmadlaiq/https://ik.imagekit.io/ahamadlaiq/alter-admin_0EQfSioZT.png?updatedAt=1711779724742",
