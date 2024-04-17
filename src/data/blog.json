@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Dasar Dasar ExpressJS #4 | HTTP Request Logger Middleware",
+    "description": "Dalam panduan ini, kita akan mempelajari cara menggunakan Morgan, sebuah middleware untuk ExpressJS, untuk memantau permintaan HTTP.",
+    "link": "https://medium.com/@ahmadlaiq97/dasar-dasar-expressjs-4-http-request-logger-middleware-f9e85001a5d3",
+    "date": "Apr 17, 2024"
+  },
+  {
+    "title": "Dasar Dasar ExpressJS #3 | Controller",
+    "description": "Dalam panduan ini, kita akan mempelajari bagaimana menggunakan controller untuk menangani logika bisnis dalam aplikasi ExpressJS.",
+    "link": "https://medium.com/@ahmadlaiq97/dasar-dasar-expressjs-3-controller-1eb1b1fc6c6f",
+    "date": "Apr 17, 2024"
+  },
+  {
+    "title": "Dasar Dasar ExpressJS #2 | Routing",
+    "description": "Dalam panduan ini, kita akan belajar bagaimana membuat dan mengelola route dalam aplikasi ExpressJS.",
+    "link": "https://medium.com/@ahmadlaiq97/dasar-dasar-expressjs-2-routing-fbcc4ff942f9",
+    "date": "Apr 17, 2024"
+  },
+  {
+    "title": "Dasar Dasar ExpressJS #1 | Setup & Instalasi",
+    "description": "Dalam panduan ini, kita akan mempelajari langkah-langkah dasar untuk menyiapkan dan menginstalasi ExpressJS.",
+    "link": "https://medium.com/@ahmadlaiq97/dasar-dasar-expressjs-1-setup-instalasi-366f9f257c3e",
+    "date": "Apr 17, 2024"
+  }
+]
