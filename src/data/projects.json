@@ -1,23 +1,7 @@
 [
   {
-    "section": "Engineering Projects",
+    "section": "Real Projects",
     "projects": [
-      {
-        "name": "Eshop RESTful API - Ongoing Project",
-        "description": "Eshop RESTful API is a RESTful API designed to facilitate the management of e-commerce data, from the management of products, categories, orders, customers, and other data.",
-        "link": "/",
-        "image": "/",
-        "technologies": [
-          "Express.js",
-          "MySQL",
-          "Sequelize ORM",
-          "RESTful API",
-          "JWT Authentication",
-          "Design Pattern",
-          "Unit Test",
-          "Api Documenation"
-        ]
-      },
       {
         "name": "Internal System PT Arindo Utama Perkasa - Ongoing Project",
         "description": "Internal System PT Arindo Utama Perkasa is a system designed to facilitate the management of company data, from the management of company employees, customers, products, and other data.",
@@ -95,6 +79,27 @@
         "link": "/",
         "image": "/",
         "technologies": ["Laravel", "Bootstrap", "jQuery", "MySQL"]
+      }
+    ]
+  },
+  {
+    "section": "Personal Projects",
+    "projects": [
+      {
+        "name": "Eshop RESTful API - Ongoing Project",
+        "description": "Eshop RESTful API is a RESTful API designed to facilitate the management of e-commerce data, from the management of products, categories, orders, customers, and other data.",
+        "link": "/",
+        "image": "/",
+        "technologies": [
+          "Express.js",
+          "MySQL",
+          "Sequelize ORM",
+          "RESTful API",
+          "JWT Authentication",
+          "Design Pattern",
+          "Unit Test",
+          "Api Documenation"
+        ]
       },
       {
         "name": "Wild vs No Wild Classification (CNN) - 2022",
