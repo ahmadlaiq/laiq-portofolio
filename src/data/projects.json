@@ -42,7 +42,7 @@
         "name": "PPS Fathul Ulum CMS (Content Management System) - 2024",
         "description": "PPS Fathul Ulum CMS is a Content Management System (CMS) designed to facilitate the management of school websites, from the management of school profiles, news, events, galleries, and other content.",
         "link": "https://fatchululumpacet.net/",
-        "img": "/",
+        "img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1718164742/cms-fatchululum_dooada.png",
         "technologies": [
           "Laravel",
           "Bootstrap",
@@ -56,7 +56,7 @@
         "name": "PPDB PPS Fathul Ulum (New Student Admissions) - 2024",
         "description": "PPDB PPS Fathul Ulum is a service system designed to facilitate the automation of the implementation of New Student Admissions (PPDB), from the new student registration process, selection to announcement of selection results through the system.",
         "link": "https://psb.fatchululumpacet.net/",
-        "img": "/",
+        "img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1718164746/psb-fatchululum_zq1syf.png",
         "technologies": ["Laravel", "Bootstrap", "jQuery", "MySQL", "Gihub CI/CD"]
       },
       {
