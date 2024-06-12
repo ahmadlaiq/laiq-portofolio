@@ -5,12 +5,22 @@ type Props = {
   href: string;
   date?: string;
   tags?: string[];
+  img?: string;
 };
 
-const { href, title, description, date, tags } = Astro.props;
+const { href, title, description, date, tags, img } = Astro.props;
 ---
 
 <a class="card" href={href} target="_blank" rel="noopener noreferrer">
+  <img
+    src={img}
+    loading="eager"
+    class="image-container"
+    alt="img of Astro Components"
+    width="800"
+    height="400"
+    decoding="async"
+  />
   <h2>{title}</h2>
   {description && <p>{description}</p>}
   {date && <p class="small">{date}</p>}
@@ -65,6 +75,16 @@ const { href, title, description, date, tags } = Astro.props;
     border-radius: 50px;
     white-space: nowrap;
     display: block;
+  }
+
+  .image-container {
+    border-radius: 0.625rem; /* Equivalent to rounded-md */
+    width: 100%; /* Equivalent to w-full */
+    max-height: 300px; /* Equivalent to max-h-[300px] */
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; /* Equivalent to my-8 */
+    overflow: hidden;
+    object-fit: cover; /* Equivalent to object-cover */
   }
   @media (prefers-color-scheme: dark) {
     .card:hover {
