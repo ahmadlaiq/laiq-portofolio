@@ -3,42 +3,42 @@
     "title": "ExpressJS Lanjutan #6 | One to Many Relationship",
     "description": "Dalam artikel ini, kita akan membahas bagaimana mengimplementasikan relasi one-to-many (satu-ke-banyak) antara dua model menggunakan ExpressJS dan Sequelize. Relasi ini memungkinkan satu entitas (model) memiliki banyak entitas lain yang terkait dengannya.",
     "link": "https://medium.com/@ahmadlaiq97/expressjs-lanjutan-6-one-to-many-relationship-5a3e2cb4dbc7",
-    "img": "/",
+    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*oQ9SRA1KzCjX6SC35FKFtA.png",
     "date": "Apr 26, 2024"
   },
   {
     "title": "ExpressJS Lanjutan #4 | Search dan Pagination Product",
     "description": "Dalam pengembangan aplikasi web, pencarian dan pagination adalah fitur yang umum ditemui, terutama dalam manajemen produk. Dalam artikel ini, kita akan membahas bagaimana cara menambahkan pencarian dan pagination ke dalam API produk menggunakan ExpressJS dan Sequelize.",
     "link": "https://medium.com/@ahmadlaiq97/expressjs-lanjutan-4-search-dan-pagination-product-7e385b5f408d",
-    "img": "/",
+    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*G_22ldHCh3AXKw8VCLiTXQ.png",
     "date": "Apr 25, 2024"
   },
   {
     "title": "ExpressJS Lanjutan #2 | Menggunakan Multer untuk Upload File",
     "description": "Dalam pengembangan aplikasi web, seringkali kita perlu mengizinkan pengguna untuk mengunggah file, seperti gambar produk dalam aplikasi e-commerce. Dalam artikel ini, kita akan membahas cara menggunakan multer untuk mengunggah file dan membuat endpoint API untuk membuat produk baru beserta file gambar.",
     "link": "https://medium.com/@ahmadlaiq97/expressjs-lanjutan-2-menggunakan-multer-untuk-upload-file-0fc97bce08a0",
-    "img": "/",
+    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Iw-CSj_yiip4YNOSj1-4uw.png",
     "date": "Apr 25, 2024"
   },
   {
     "title": "ExpressJS Autentikasi #8 | Error Handling Middleware",
     "description": "Dalam pengembangan aplikasi web dengan ExpressJS, error handling merupakan bagian penting untuk menangani kondisi-kondisi yang tidak diinginkan. Pada panduan ini, kita akan melihat bagaimana cara mengimplementasikan Error Handling Middleware di ExpressJS.",
     "link": "https://medium.com/@ahmadlaiq97/expressjs-autentikasi-8-error-handling-middleware-66434ef709cd",
-    "img": "/",
+    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*a535ceIC7aeE6dAI9EIUvA.png",
     "date": "Apr 23, 2024"
   },
   {
     "title": "ExpressJS Autentikasi #7 | Simpan JWT Kedalam Cookie",
     "description": "Pada pengembangan aplikasi web dengan ExpressJS, seringkali kita perlu menyimpan token JWT ke dalam cookie sebagai cara alternatif untuk menyimpan informasi autentikasi pengguna. Dalam panduan ini, kita akan melihat bagaimana cara menyimpan token JWT ke dalam cookie menggunakan ExpressJS.",
     "link": "https://medium.com/@ahmadlaiq97/expressjs-autentikasi-7-simpan-jwt-kedalam-cookie-564cf0728a93",
-    "img": "/",
+    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*b0nzbcUSr0laIahYw8xGeg.png",
     "date": "Apr 23, 2024"
   },
   {
     "title": "ExpressJS Autentikasi #4 | Login User Dengan JWT (Json Web Token)",
     "description": "Dalam pengembangan aplikasi web dengan ExpressJS, langkah penting setelah registrasi user adalah menyediakan mekanisme login yang aman. Pada panduan ini, kita akan membuat endpoint login dengan menggunakan JWT (Json Web Token) untuk otentikasi user.",
     "link": "https://medium.com/@ahmadlaiq97/expressjs-autentikasi-3-login-user-dengan-jwt-json-web-token-61afe75ec60a",
-    "img": "/",
+    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*ggtDSrSEcLPWBZQUXr7Gyg.png",
     "date": "Apr 21, 2024"
   }
 ]
