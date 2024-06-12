@@ -17,6 +17,7 @@ import Card from "../components/Card.astro";
     {
       data.map((post) => (
         <Card
+          img={post.img}
           href={post.link}
           title={post.title}
           description={post.description}
