@@ -89,7 +89,7 @@
         "name": "Eshop RESTful API - Ongoing Project",
         "description": "Eshop RESTful API is a RESTful API designed to facilitate the management of e-commerce data, from the management of products, categories, orders, customers, and other data.",
         "link": "/",
-        "img": "/",
+        "img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1718245785/eshop_rstail.png",
         "technologies": [
           "Express.js",
           "MySQL",
