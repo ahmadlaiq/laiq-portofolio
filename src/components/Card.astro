@@ -17,8 +17,6 @@ const { href, title, description, date, tags, img } = Astro.props;
     loading="eager"
     class="image-container"
     alt="img of Astro Components"
-    width="800"
-    height="400"
     decoding="async"
   />
   <h2>{title}</h2>
@@ -36,6 +34,12 @@ const { href, title, description, date, tags, img } = Astro.props;
 </a>
 
 <style>
+  /* responsive img */
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   .card {
     display: block;
     padding: 1.5rem;
