@@ -1,5 +1,12 @@
 [
   {
+    "title": "Implementasi Testing ExpressJS API Menggunakan Jest dan Supertest",
+    "description": "Dalam artikel ini, kita akan membahas cara mengimplementasikan testing pada ExpressJS API menggunakan Jest dan Supertest.",
+    "link": "https://medium.com/@ahmadlaiq97/implementasi-testing-expressjs-api-menggunakan-jest-dan-supertest-dd8a5909b6f3",
+    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*VUrxhrcMVQLQp6V5FZWnQQ.png",
+    "date": "Jun 21, 2024"
+  },
+  {
     "title": "Tutorial Dokumentasi Express API dengan Swagger UI dan JSDoc",
     "description": "Dalam artikel ini, kita akan membahas cara mendokumentasikan Express API menggunakan dua alat populer: Swagger UI dan JSDoc. Keduanya adalah alat yang sangat berguna untuk memastikan dokumentasi API Anda mudah dibaca dan digunakan.",
     "link": "https://medium.com/@ahmadlaiq97/tutorial-dokumentasi-express-api-dengan-swagger-ui-dan-jsdoc-e97cbe6d3e6f",
