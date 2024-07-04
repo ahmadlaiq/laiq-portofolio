@@ -14,7 +14,7 @@ const { href, title, description, date, tags, img } = Astro.props;
 <a class="card" href={href} target="_blank" rel="noopener noreferrer">
   <img
     src={img}
-    loading="eager"
+    loading="lazy"
     class="image-container"
     alt="img of Astro Components"
     decoding="async"
