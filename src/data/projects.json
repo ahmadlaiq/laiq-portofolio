@@ -3,7 +3,7 @@
     "section": "Real Projects",
     "projects": [
       {
-        "name": "Internal System PT Arindo Utama Perkasa - Ongoing Project",
+        "name": "Internal System PT Arindo Utama Perkasa - 2024",
         "description": "Internal System PT Arindo Utama Perkasa is a system designed to facilitate the management of company data, from the management of company employees, customers, products, and other data.",
         "link": "https://arindoutamaperkasa.com/",
         "img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1718163974/arindo_akkb5x.png",
@@ -18,7 +18,7 @@
         ]
       },
       {
-        "name": "Internal System CV Aliansyah ERP (Enterprise Resource Planning) - Ongoing Project",
+        "name": "Internal System CV Aliansyah ERP (Enterprise Resource Planning) - 2024",
         "description": "Internal System Aliansyah ERP is a system designed to facilitate the management of company data, from the management of company employees, customers, suppliers, products, sales, purchases, and other data.",
         "link": "/",
         "img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1718164254/aliansyah_lxjbgm.png",
@@ -86,7 +86,18 @@
     "section": "Personal Projects",
     "projects": [
       {
-        "name": "Eshop RESTful API - Ongoing Project",
+        "name": "PokeDex - 2024",
+        "description": "PokeDex is a web application that provides information about Pokemon, such as Pokemon name, type, abilities, and other information.",
+        "link": "https://pokedex97.netlify.app/",
+        "img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1720078641/Macbook-Air-pokedex97.netlify.app_q5dfyu.png",
+        "technologies": [
+          "SvelteKit",
+          "Tailwind CSS",
+          "Axios"
+        ]
+      },
+      {
+        "name": "Eshop RESTful API - 2024",
         "description": "Eshop RESTful API is a RESTful API designed to facilitate the management of e-commerce data, from the management of products, categories, orders, customers, and other data.",
         "link": "/",
         "img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1718245785/eshop_rstail.png",
