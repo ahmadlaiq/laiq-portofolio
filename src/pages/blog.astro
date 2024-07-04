@@ -10,22 +10,50 @@ import Card from "../components/Card.astro";
   keywords="code contributions,developer advocate, open source collaboration, problem solver, software development, laravel developer, react developer, full stack developer, javascript developer, web developer, software engineer"
   image="/favicon.svg"
 >
-<section>
-<div class="container">
-  <div class="content">
-    <h1>Articles by Laiq</h1>
-    {
-      data.map((post) => (
-        <Card
-          img={post.img}
-          href={post.link}
-          title={post.title}
-          description={post.description}
-          date={post.date}
-        />
-      ))
-    }
-  </div>
-</div>
-</section>
+  <section>
+    <div class="container">
+      <div class="content">
+        <h1>Stories by Ahmad Nurul Laiq on Medium</h1>
+        {
+          data.map((post) => (
+            <Card
+              img={post.img}
+              href={post.link}
+              title={post.title}
+              description={post.description}
+              date={post.date}
+            />
+          ))
+        }
+      </div>
+      <div class="butoon-position">
+        <a
+          href="https://medium.com/@ahmadlaiq97"
+          target="_blank"
+          class="primary-button">Read more on Medium.com</a
+        >
+      </div>
+    </div>
+  </section>
 </Layout>
+
+<style>
+  .butoon-position {
+    display: flex;
+    justify-content: center;
+  }
+
+  .primary-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2C2C2E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+  }
+</style>
