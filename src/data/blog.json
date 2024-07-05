@@ -1,10 +1,17 @@
 [
   {
+    "title": "Golang Live Reload Set Up Tutorial to Make Life Easier",
+    "description": "One tool that is becoming increasingly popular among Go developers is Air, a tool designed to ease the development process with its hot reload feature. In this article, we will discuss how to set up Golang Air to increase your productivity",
+    "link": "https://medium.com/@ahmadlaiq97/tutorial-set-up-golang-air-live-reload-untuk-mempermudah-hidup-262aeb194549",
+    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*upLhK_tqfV58stvl2bx1EQ.png",
+    "date": "05 July 2024"
+  },
+  {
     "title": "Konfigurasi ESLint dan Prettier di Proyek Express.js",
     "description": "ESLint membantu kita menemukan dan memperbaiki masalah dalam kode JavaScript kita, sementara Prettier memastikan bahwa kode tersebut diformat secara konsisten. Dalam artikel ini, kita akan membahas cara mengkonfigurasi ESLint dan Prettier di proyek Express.js Anda.",
     "link": "https://medium.com/@ahmadlaiq97/konfigurasi-eslint-dan-prettier-di-proyek-express-js-bddb9cd74a9b",
     "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*IOug4qaqKK7VLZEYgD3QxA.png",
-    "date": "22 July 2024"
+    "date": "02 July 2024"
   },
   {
     "title": "Implementation of ExpressJS API Testing Using Jest and Supertest",
