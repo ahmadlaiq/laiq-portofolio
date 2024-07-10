@@ -21,7 +21,7 @@ const { href, title, description, date, tags, img } = Astro.props;
   />
   <h2>{title}</h2>
   {description && <p>{description}</p>}
-  {date && <p class="small">{date}</p>}
+  {date && <p class="date">{date}</p>}
   {
     tags && (
       <div class="tag-container">
@@ -53,6 +53,7 @@ const { href, title, description, date, tags, img } = Astro.props;
     border: none;
     border-radius: 5px;
     box-shadow: 0px 10px 15px -22px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
   }
 
   h2 {
@@ -63,8 +64,9 @@ const { href, title, description, date, tags, img } = Astro.props;
     padding: 0.3rem 0;
     line-height: 1.8;
   }
-  .small {
+  .date {
     font-size: 1.4rem;
+    color: #666;
   }
   .tag-container {
     display: flex;
@@ -80,6 +82,8 @@ const { href, title, description, date, tags, img } = Astro.props;
     white-space: nowrap;
     display: block;
   }
+
+  
 
   .image-container {
     border-radius: 0.625rem; /* Equivalent to rounded-md */
