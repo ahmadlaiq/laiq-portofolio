@@ -60,6 +60,13 @@
         "technologies": ["Laravel", "Bootstrap", "jQuery", "MySQL", "Gihub CI/CD"]
       },
       {
+        "name": "SMK Kesuma Margoyoso Pati (CMS) - 2024",
+        "description": "SMK Kesuma Margoyoso Pati CMS is a Content Management System (CMS) designed to facilitate the management of school websites, from the management of school profiles, news, events, galleries, and other content.",
+        "link": "https://smkkesumamargoyoso.sch.id/",
+        "img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1720597195/Macbook-Air-www.smkkesumamargoyoso.sch.id_m2j193.png",
+        "technologies": ["Laravel", "Tailwind CSS", "jQuery", "MySQL"]
+      },
+      {
         "name": "Luluk Store (POS) System - 2023",
         "description": "Luluk Store (POS) System is basically a management system for store, where a system user can add, update and delete item from menu and generate bills.",
         "link": "/",
@@ -89,7 +96,7 @@
         "name": "PokeDex - 2024",
         "description": "PokeDex is a web application that provides information about Pokemon, such as Pokemon name, type, abilities, and other information.",
         "link": "https://pokedex97.netlify.app/",
-        "img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1720078641/Macbook-Air-pokedex97.netlify.app_q5dfyu.png",
+        "img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1720597380/Macbook-Air-pokedex97.netlify.app_bckk53.png",
         "technologies": [
           "SvelteKit",
           "Tailwind CSS",
