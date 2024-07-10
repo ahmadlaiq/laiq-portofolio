@@ -7,7 +7,7 @@
     "date": "05 July 2024"
   },
   {
-    "title": "Konfigurasi ESLint dan Prettier di Proyek Express.js",
+    "title": "ESLint and Prettier Configuration in Express.js Project",
     "description": "ESLint helps us find and fix problems in our JavaScript code, while Prettier ensures that the code is formatted consistently. In this article, we will discuss how to configure ESLint and Prettier in your Express.js project.",
     "link": "https://medium.com/@ahmadlaiq97/konfigurasi-eslint-dan-prettier-di-proyek-express-js-bddb9cd74a9b",
     "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*IOug4qaqKK7VLZEYgD3QxA.png",
