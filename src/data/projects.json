@@ -5,7 +5,7 @@
       {
         "name": "Internal System PT Arindo Utama Perkasa - 2024",
         "description": "Internal System PT Arindo Utama Perkasa is a system designed to facilitate the management of company data, from the management of company employees, customers, products, and other data.",
-        "link": "https://arindoutamaperkasa.com/",
+        "link": "http://arindoutamaperkasa.co.id/",
         "img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1718163974/arindo_akkb5x.png",
         "technologies": [
           "Nginx",
