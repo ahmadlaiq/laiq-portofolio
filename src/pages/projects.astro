@@ -1,35 +1,35 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import projects from "../data/projects.json";
-import Card from "../components/Card.astro";
+import Layout from '../layouts/Layout.astro'
+import projects from '../data/projects.json'
+import Card from '../components/Card.astro'
 ---
 
 <Layout
-  title="Projects"
-  description="Projects I've worked on previously. I'm a full stack developer with experience in Laravel, React, and other technologies. I'm a problem solver and a software engineer. I'm also a developer advocate and I love open source collaboration. I'm always looking for new opportunities to contribute to codebases and help solve problems."
-  keywords="code contributions,developer advocate, open source collaboration, problem solver, software development, laravel developer, react developer, full stack developer, javascript developer, web developer, software engineer"
-  image="/favicon.svg"
+	title="Projects"
+	description="Projects I've worked on previously. I'm a full stack developer with experience in Laravel, React, and other technologies. I'm a problem solver and a software engineer. I'm also a developer advocate and I love open source collaboration. I'm always looking for new opportunities to contribute to codebases and help solve problems."
+	keywords="code contributions,developer advocate, open source collaboration, problem solver, software development, laravel developer, react developer, full stack developer, javascript developer, web developer, software engineer"
+	image="/favicon.svg"
 >
-  <section>
-    <div class="container">
-      <div class="content">
-        {
-          projects.map((project) => (
-            <section id={project.section}>
-              <h2>{project.section} </h2>
-              {project.projects.map((project) => (
-                <Card
-                  img={project.img}
-                  href={project.link}
-                  title={project.name}
-                  description={project.description}
-                  tags={project.technologies}
-                />
-              ))}
-            </section>
-          ))
-        }
-      </div>
-    </div>
-  </section>
+	<section>
+		<div class="container">
+			<div class="content">
+				{
+					projects.map((project) => (
+						<section id={project.section}>
+							<h2>{project.section} </h2>
+							{project.projects.map((project) => (
+								<Card
+									img={project.img}
+									href={project.link}
+									title={project.name}
+									description={project.description}
+									tags={project.technologies}
+								/>
+							))}
+						</section>
+					))
+				}
+			</div>
+		</div>
+	</section>
 </Layout>

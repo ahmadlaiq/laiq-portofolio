@@ -1,72 +1,72 @@
 [
-  {
-    "title": "Golang Live Reload Set Up Tutorial to Make Life Easier",
-    "description": "One tool that is becoming increasingly popular among Go developers is Air, a tool designed to ease the development process with its hot reload feature. In this article, we will discuss how to set up Golang Air to increase your productivity",
-    "link": "https://medium.com/@ahmadlaiq97/tutorial-set-up-golang-air-live-reload-untuk-mempermudah-hidup-262aeb194549",
-    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*upLhK_tqfV58stvl2bx1EQ.png",
-    "date": "05 July 2024"
-  },
-  {
-    "title": "ESLint and Prettier Configuration in Express.js Project",
-    "description": "ESLint helps us find and fix problems in our JavaScript code, while Prettier ensures that the code is formatted consistently. In this article, we will discuss how to configure ESLint and Prettier in your Express.js project.",
-    "link": "https://medium.com/@ahmadlaiq97/konfigurasi-eslint-dan-prettier-di-proyek-express-js-bddb9cd74a9b",
-    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*IOug4qaqKK7VLZEYgD3QxA.png",
-    "date": "02 July 2024"
-  },
-  {
-    "title": "Implementation of ExpressJS API Testing Using Jest and Supertest",
-    "description": "In this article, we will discuss how to implement testing on the ExpressJS API using Jest and Supertest.",
-    "link": "https://medium.com/@ahmadlaiq97/implementasi-testing-expressjs-api-menggunakan-jest-dan-supertest-dd8a5909b6f3",
-    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*VUrxhrcMVQLQp6V5FZWnQQ.png",
-    "date": "21 June 2024"
-  },
-  {
-    "title": "Express API Documentation Tutorial with Swagger UI and JSDoc",
-    "description": "In this article, we will discuss how to document the Express API using two popular tools: Swagger UI and JSDoc. Both are very useful tools to ensure your API documentation is easy to read and use.",
-    "link": "https://medium.com/@ahmadlaiq97/tutorial-dokumentasi-express-api-dengan-swagger-ui-dan-jsdoc-e97cbe6d3e6f",
-    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*vSPHtRimqgu8OA0UkXao_Q.png",
-    "date": "18 June 2024"
-  },
-  {
-    "title": "ExpressJS Advanced #6 | One to Many Relationship",
-    "description": "In this article, we will discuss how to implement a one-to-many relation between two models using ExpressJS and Sequelize. This relation allows one entity (model) to have many other entities associated with it.",
-    "link": "https://medium.com/@ahmadlaiq97/expressjs-lanjutan-6-one-to-many-relationship-5a3e2cb4dbc7",
-    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*oQ9SRA1KzCjX6SC35FKFtA.png",
-    "date": "26 April 2024"
-  },
-  {
-    "title": "ExpressJS Advanced #4 | Search and Pagination Product",
-    "description": "In web application development, search and pagination are common features, especially in product management. In this article, we will discuss how to add search and pagination to the product API using ExpressJS and Sequelize.",
-    "link": "https://medium.com/@ahmadlaiq97/expressjs-lanjutan-4-search-dan-pagination-product-7e385b5f408d",
-    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*G_22ldHCh3AXKw8VCLiTXQ.png",
-    "date": "25 April 2024"
-  },
-  {
-    "title": "ExpressJS Advanced #2 | Using Multer to Upload Files",
-    "description": "In web application development, we often need to allow users to upload files, such as product images in e-commerce applications. In this article, we will discuss how to use multer to upload files and create an API endpoint to create new products with image files.",
-    "link": "https://medium.com/@ahmadlaiq97/expressjs-lanjutan-2-menggunakan-multer-untuk-upload-file-0fc97bce08a0",
-    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Iw-CSj_yiip4YNOSj1-4uw.png",
-    "date": "25 April 2024"
-  },
-  {
-    "title": "ExpressJS Authentication #8 | Error Handling Middleware",
-    "description": "In developing web applications with ExpressJS, error handling is an important part of handling unwanted conditions. In this guide, we will see how to implement Error Handling Middleware in ExpressJS.",
-    "link": "https://medium.com/@ahmadlaiq97/expressjs-autentikasi-8-error-handling-middleware-66434ef709cd",
-    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*a535ceIC7aeE6dAI9EIUvA.png",
-    "date": "23 April 2024"
-  },
-  {
-    "title": "ExpressJS Authentication #7 | Save JWT to Cookies",
-    "description": "When developing web applications with ExpressJS, we often need to store JWT tokens in cookies as an alternative way to store user authentication information. In this guide, we will see how to store JWT tokens in cookies using ExpressJS.",
-    "link": "https://medium.com/@ahmadlaiq97/expressjs-autentikasi-7-simpan-jwt-kedalam-cookie-564cf0728a93",
-    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*b0nzbcUSr0laIahYw8xGeg.png",
-    "date": "23 April 2024"
-  },
-  {
-    "title": "ExpressJS Authentication #4 | User Login With JWT",
-    "description": "In developing web applications with ExpressJS, an important step after user registration is to provide a secure login mechanism. In this guide, we will create a login endpoint using JWT (Json Web Token) for user authentication.",
-    "link": "https://medium.com/@ahmadlaiq97/expressjs-autentikasi-3-login-user-dengan-jwt-json-web-token-61afe75ec60a",
-    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*ggtDSrSEcLPWBZQUXr7Gyg.png",
-    "date": "21 April 2024"
-  }
+	{
+		"title": "Golang Live Reload Set Up Tutorial to Make Life Easier",
+		"description": "One tool that is becoming increasingly popular among Go developers is Air, a tool designed to ease the development process with its hot reload feature. In this article, we will discuss how to set up Golang Air to increase your productivity",
+		"link": "https://medium.com/@ahmadlaiq97/tutorial-set-up-golang-air-live-reload-untuk-mempermudah-hidup-262aeb194549",
+		"img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*upLhK_tqfV58stvl2bx1EQ.png",
+		"date": "05 July 2024"
+	},
+	{
+		"title": "ESLint and Prettier Configuration in Express.js Project",
+		"description": "ESLint helps us find and fix problems in our JavaScript code, while Prettier ensures that the code is formatted consistently. In this article, we will discuss how to configure ESLint and Prettier in your Express.js project.",
+		"link": "https://medium.com/@ahmadlaiq97/konfigurasi-eslint-dan-prettier-di-proyek-express-js-bddb9cd74a9b",
+		"img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*IOug4qaqKK7VLZEYgD3QxA.png",
+		"date": "02 July 2024"
+	},
+	{
+		"title": "Implementation of ExpressJS API Testing Using Jest and Supertest",
+		"description": "In this article, we will discuss how to implement testing on the ExpressJS API using Jest and Supertest.",
+		"link": "https://medium.com/@ahmadlaiq97/implementasi-testing-expressjs-api-menggunakan-jest-dan-supertest-dd8a5909b6f3",
+		"img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*VUrxhrcMVQLQp6V5FZWnQQ.png",
+		"date": "21 June 2024"
+	},
+	{
+		"title": "Express API Documentation Tutorial with Swagger UI and JSDoc",
+		"description": "In this article, we will discuss how to document the Express API using two popular tools: Swagger UI and JSDoc. Both are very useful tools to ensure your API documentation is easy to read and use.",
+		"link": "https://medium.com/@ahmadlaiq97/tutorial-dokumentasi-express-api-dengan-swagger-ui-dan-jsdoc-e97cbe6d3e6f",
+		"img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*vSPHtRimqgu8OA0UkXao_Q.png",
+		"date": "18 June 2024"
+	},
+	{
+		"title": "ExpressJS Advanced #6 | One to Many Relationship",
+		"description": "In this article, we will discuss how to implement a one-to-many relation between two models using ExpressJS and Sequelize. This relation allows one entity (model) to have many other entities associated with it.",
+		"link": "https://medium.com/@ahmadlaiq97/expressjs-lanjutan-6-one-to-many-relationship-5a3e2cb4dbc7",
+		"img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*oQ9SRA1KzCjX6SC35FKFtA.png",
+		"date": "26 April 2024"
+	},
+	{
+		"title": "ExpressJS Advanced #4 | Search and Pagination Product",
+		"description": "In web application development, search and pagination are common features, especially in product management. In this article, we will discuss how to add search and pagination to the product API using ExpressJS and Sequelize.",
+		"link": "https://medium.com/@ahmadlaiq97/expressjs-lanjutan-4-search-dan-pagination-product-7e385b5f408d",
+		"img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*G_22ldHCh3AXKw8VCLiTXQ.png",
+		"date": "25 April 2024"
+	},
+	{
+		"title": "ExpressJS Advanced #2 | Using Multer to Upload Files",
+		"description": "In web application development, we often need to allow users to upload files, such as product images in e-commerce applications. In this article, we will discuss how to use multer to upload files and create an API endpoint to create new products with image files.",
+		"link": "https://medium.com/@ahmadlaiq97/expressjs-lanjutan-2-menggunakan-multer-untuk-upload-file-0fc97bce08a0",
+		"img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Iw-CSj_yiip4YNOSj1-4uw.png",
+		"date": "25 April 2024"
+	},
+	{
+		"title": "ExpressJS Authentication #8 | Error Handling Middleware",
+		"description": "In developing web applications with ExpressJS, error handling is an important part of handling unwanted conditions. In this guide, we will see how to implement Error Handling Middleware in ExpressJS.",
+		"link": "https://medium.com/@ahmadlaiq97/expressjs-autentikasi-8-error-handling-middleware-66434ef709cd",
+		"img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*a535ceIC7aeE6dAI9EIUvA.png",
+		"date": "23 April 2024"
+	},
+	{
+		"title": "ExpressJS Authentication #7 | Save JWT to Cookies",
+		"description": "When developing web applications with ExpressJS, we often need to store JWT tokens in cookies as an alternative way to store user authentication information. In this guide, we will see how to store JWT tokens in cookies using ExpressJS.",
+		"link": "https://medium.com/@ahmadlaiq97/expressjs-autentikasi-7-simpan-jwt-kedalam-cookie-564cf0728a93",
+		"img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*b0nzbcUSr0laIahYw8xGeg.png",
+		"date": "23 April 2024"
+	},
+	{
+		"title": "ExpressJS Authentication #4 | User Login With JWT",
+		"description": "In developing web applications with ExpressJS, an important step after user registration is to provide a secure login mechanism. In this guide, we will create a login endpoint using JWT (Json Web Token) for user authentication.",
+		"link": "https://medium.com/@ahmadlaiq97/expressjs-autentikasi-3-login-user-dengan-jwt-json-web-token-61afe75ec60a",
+		"img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*ggtDSrSEcLPWBZQUXr7Gyg.png",
+		"date": "21 April 2024"
+	}
 ]

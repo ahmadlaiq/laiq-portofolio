@@ -1,123 +1,121 @@
 ---
 type Props = {
-  title: string;
-  description?: string;
-  href: string;
-  date?: string;
-  tags?: string[];
-  img?: string;
-};
+	title: string
+	description?: string
+	href: string
+	date?: string
+	tags?: string[]
+	img?: string
+}
 
-const { href, title, description, date, tags, img } = Astro.props;
+const { href, title, description, date, tags, img } = Astro.props
 ---
 
 <a class="card" href={href} target="_blank" rel="noopener noreferrer">
-  <img
-    src={img}
-    loading="lazy"
-    class="image-container"
-    alt="img of Astro Components"
-    decoding="async"
-  />
-  <h2>{title}</h2>
-  {description && <p>{description}</p>}
-  {date && <p class="date">{date}</p>}
-  {
-    tags && (
-      <div class="tag-container">
-        {tags.map((tag) => (
-          <span class="tag">{tag}</span>
-        ))}
-      </div>
-    )
-  }
+	<img
+		src={img}
+		loading="lazy"
+		class="image-container"
+		alt="img of Astro Components"
+		decoding="async"
+	/>
+	<h2>{title}</h2>
+	{description && <p>{description}</p>}
+	{date && <p class="date">{date}</p>}
+	{
+		tags && (
+			<div class="tag-container">
+				{tags.map((tag) => (
+					<span class="tag">{tag}</span>
+				))}
+			</div>
+		)
+	}
 </a>
 
 <style>
-  /* responsive img */
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .card {
-    display: block;
-    padding: 1.5rem;
-    margin: 0.5rem 0;
-    border: none;
-    background-color: transparent;
-    transition: background-color 0.5s ease-out;
-  }
-  .card:hover {
-    background-color: #fff;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0px 10px 15px -22px rgba(0, 0, 0, 0.1);
-    transform: scale(1.05);
-  }
+	/* responsive img */
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.card {
+		display: block;
+		padding: 1.5rem;
+		margin: 0.5rem 0;
+		border: none;
+		background-color: transparent;
+		transition: background-color 0.5s ease-out;
+	}
+	.card:hover {
+		background-color: #fff;
+		border: none;
+		border-radius: 5px;
+		box-shadow: 0px 10px 15px -22px rgba(0, 0, 0, 0.1);
+		transform: scale(1.05);
+	}
 
-  h2 {
-    font-size: 2rem;
-    font-weight: 500;
-  }
-  p {
-    padding: 0.3rem 0;
-    line-height: 1.8;
-  }
-  .date {
-    font-size: 1.4rem;
-    color: #666;
-  }
-  .tag-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-  }
-  .tag {
-    font-size: 1.3rem;
-    padding: 3px 10px;
-    background-color: #dfdfdf;
-    margin-right: 10px;
-    border-radius: 50px;
-    white-space: nowrap;
-    display: block;
-  }
+	h2 {
+		font-size: 2rem;
+		font-weight: 500;
+	}
+	p {
+		padding: 0.3rem 0;
+		line-height: 1.8;
+	}
+	.date {
+		font-size: 1.4rem;
+		color: #666;
+	}
+	.tag-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5px;
+	}
+	.tag {
+		font-size: 1.3rem;
+		padding: 3px 10px;
+		background-color: #dfdfdf;
+		margin-right: 10px;
+		border-radius: 50px;
+		white-space: nowrap;
+		display: block;
+	}
 
-  
-
-  .image-container {
-    border-radius: 0.625rem; /* Equivalent to rounded-md */
-    width: 100%; /* Equivalent to w-full */
-    max-height: 300px; /* Equivalent to max-h-[300px] */
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem; /* Equivalent to my-8 */
-    overflow: hidden;
-    object-fit: cover; /* Equivalent to object-cover */
-  }
-  @media (prefers-color-scheme: dark) {
-    .card:hover {
-      background: #2a2a2a;
-    }
-  }
-  /* Dark mode settings  */
-  @media screen and (max-width: 640px) {
-    .card {
-      padding: 2rem 0;
-    }
-    .card:hover {
-      background-color: transparent;
-      border: none;
-      box-shadow: none;
-    }
-    @media (prefers-color-scheme: dark) {
-      .card:hover {
-        background-color: transparent;
-      }
-    }
-  }
-  @media (prefers-color-scheme: dark) {
-    .tag {
-      background-color: #414141;
-    }
-  }
+	.image-container {
+		border-radius: 0.625rem; /* Equivalent to rounded-md */
+		width: 100%; /* Equivalent to w-full */
+		max-height: 300px; /* Equivalent to max-h-[300px] */
+		margin-top: 1.5rem;
+		margin-bottom: 1.5rem; /* Equivalent to my-8 */
+		overflow: hidden;
+		object-fit: cover; /* Equivalent to object-cover */
+	}
+	@media (prefers-color-scheme: dark) {
+		.card:hover {
+			background: #2a2a2a;
+		}
+	}
+	/* Dark mode settings  */
+	@media screen and (max-width: 640px) {
+		.card {
+			padding: 2rem 0;
+		}
+		.card:hover {
+			background-color: transparent;
+			border: none;
+			box-shadow: none;
+		}
+		@media (prefers-color-scheme: dark) {
+			.card:hover {
+				background-color: transparent;
+			}
+		}
+	}
+	@media (prefers-color-scheme: dark) {
+		.tag {
+			background-color: #414141;
+		}
+	}
 </style>

@@ -1,47 +1,47 @@
 ---
-import { ViewTransitions } from "astro:transitions";
-import "../styles/global.css";
-import Header from "./Header.astro";
+import { ViewTransitions } from 'astro:transitions'
+import '../styles/global.css'
+import Header from './Header.astro'
 
 interface Props {
-  title: string;
-  description: string;
-  keywords: string;
-  image: string;
+	title: string
+	description: string
+	keywords: string
+	image: string
 }
 
-const { title, description, keywords, image } = Astro.props;
+const { title, description, keywords, image } = Astro.props
 ---
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content={description} />
-    <meta name="keywords" content={keywords} />
-    <meta name="author" content="Ahmad Nurul Laiq" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content={description} />
+		<meta name="keywords" content={keywords} />
+		<meta name="author" content="Ahmad Nurul Laiq" />
 
-    <!-- Open Graph and Twitter Card meta tags for social sharing -->
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:image" content={image} />
-    <meta property="og:url" content="https://www.ahmadlaiq.my.id" />
-    <meta name="twitter:card" content={image} />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={image} />
+		<!-- Open Graph and Twitter Card meta tags for social sharing -->
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={image} />
+		<meta property="og:url" content="https://www.ahmadlaiq.my.id" />
+		<meta name="twitter:card" content={image} />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={image} />
 
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <ViewTransitions />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<ViewTransitions />
 
-    <title>{title}</title>
-  </head>
-  <body>
-    <Header />
-    <main>
-      <slot />
-    </main>
-  </body>
+		<title>{title}</title>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<slot />
+		</main>
+	</body>
 </html>
