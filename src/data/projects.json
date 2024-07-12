@@ -60,6 +60,13 @@
 				"technologies": ["Laravel", "Tailwind CSS", "jQuery", "MySQL"]
 			},
 			{
+				"name": "Bank Indonesia X Lampung Begawi (Eevent Management) - 2024",
+				"description": "Bank Indonesia X Lampung Begawi is a system designed to facilitate the management of events, from the management of event participants, event schedules, event speakers, and other event data.",
+				"link": "https://lampungbegawi.com/",
+				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1720748091/bi-x-lampung_begawi_l9kduu.png",
+				"technologies": ["Laravel", "PostgreSQL", "React.js", "Tailwind CSS", "RESTful API", "JWT Authentication", "Design Pattern", "Unit Test", "Api Documenation", "Gihub CI/CD"]
+			},
+			{
 				"name": "Luluk Store (POS) System - 2023",
 				"description": "Luluk Store (POS) System is basically a management system for store, where a system user can add, update and delete item from menu and generate bills.",
 				"link": "/",
