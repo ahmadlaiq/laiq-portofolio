@@ -3,6 +3,21 @@
 		"section": "Real Projects",
 		"projects": [
 			{
+				"name": "Kementrian Energi Dan Sumber Daya Mineral Minerba One Data (MOD) - 2024",
+				"description": "Kementrian Energi Dan Sumber Daya Mineral Minerba One Data (MOD) is a system designed to facilitate the management of data in the mining sector, from the management of mining companies, mining permits, mining production, and other data.",
+				"link": "https://minerbaone.com/",
+				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1721017053/Macbook-Air-minerbaone.com_a5xh9i.png",
+				"technologies": [
+					"Laravel",
+					"PostgreSQL",
+					"RESTful API",
+					"Api Documenation",
+					"Design Pattern",
+					"Unit Test",
+					"JWT Authentication"
+				]
+			},
+			{
 				"name": "Internal System PT Arindo Utama Perkasa - 2024",
 				"description": "Internal System PT Arindo Utama Perkasa is a system designed to facilitate the management of company data, from the management of company employees, customers, products, and other data.",
 				"link": "http://arindoutamaperkasa.co.id/",
