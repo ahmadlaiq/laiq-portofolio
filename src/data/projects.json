@@ -18,6 +18,24 @@
 				]
 			},
 			{
+				"name": "Bank Indonesia X Lampung Begawi (Event Management) - 2024",
+				"description": "Bank Indonesia X Lampung Begawi is a system designed to facilitate the management of events, from the management of event participants, event schedules, event speakers, and other event data.",
+				"link": "https://lampungbegawi.com/",
+				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1720748091/bi-x-lampung_begawi_l9kduu.png",
+				"technologies": [
+					"Laravel",
+					"PostgreSQL",
+					"React.js",
+					"Tailwind CSS",
+					"RESTful API",
+					"JWT Authentication",
+					"Design Pattern",
+					"Unit Test",
+					"Api Documenation",
+					"Gihub CI/CD"
+				]
+			},
+			{
 				"name": "Internal System PT Arindo Utama Perkasa - 2024",
 				"description": "Internal System PT Arindo Utama Perkasa is a system designed to facilitate the management of company data, from the management of company employees, customers, products, and other data.",
 				"link": "http://arindoutamaperkasa.co.id/",
@@ -75,11 +93,22 @@
 				"technologies": ["Laravel", "Tailwind CSS", "jQuery", "MySQL"]
 			},
 			{
-				"name": "Bank Indonesia X Lampung Begawi (Event Management) - 2024",
-				"description": "Bank Indonesia X Lampung Begawi is a system designed to facilitate the management of events, from the management of event participants, event schedules, event speakers, and other event data.",
-				"link": "https://lampungbegawi.com/",
-				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1720748091/bi-x-lampung_begawi_l9kduu.png",
-				"technologies": ["Laravel", "PostgreSQL", "React.js", "Tailwind CSS", "RESTful API", "JWT Authentication", "Design Pattern", "Unit Test", "Api Documenation", "Gihub CI/CD"]
+				"name": "Warkopsans (Order App) - 2024",
+				"description": "Warkopsans is a system designed to facilitate the management of orders in a coffee shop, from the management of menus, orders, and other data.",
+				"link": "/",
+				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1723186204/warkopsans_ecmc9r.jpg",
+				"technologies": [
+					"Laravel",
+					"PostgreSQL",
+					"Tailwind CSS",
+					"jQuery",
+					"Design Pattern",
+					"Unit Test",
+					"Gitlab CI/CD",
+					"Nginx",
+					"Docker",
+					"Cloudinary"
+				]
 			},
 			{
 				"name": "Luluk Store (POS) System - 2023",
