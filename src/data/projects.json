@@ -141,7 +141,7 @@
 				"description": "PokeDex is a web application that provides information about Pokemon, such as Pokemon name, type, abilities, and other information.",
 				"link": "https://pokedex97.netlify.app/",
 				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1720597380/Macbook-Air-pokedex97.netlify.app_bckk53.png",
-				"technologies": ["SvelteKit", "Tailwind CSS", "Axios"]
+				"technologies": ["VueJS", "Tailwind CSS", "Axios"]
 			},
 			{
 				"name": "Eshop RESTful API - 2024",
