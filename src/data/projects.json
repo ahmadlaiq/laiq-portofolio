@@ -18,6 +18,23 @@
 				]
 			},
 			{
+				"name": "Pratama Constech Group (CRM) - 2024",
+				"description": "",
+				"link": "https://pratamaconstech.com/",
+				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1727917966/faa99edc-b365-4e09-9674-b799d2cba105.png",
+				"technologies": [
+					"Golang",
+					"PostgreSQL",
+					"Nuxt.js",
+					"Tailwind CSS",
+					"RESTful API",
+					"JWT Authentication",
+					"PM2",
+					"Api Documenation",
+					"Jenkins"
+				]
+			},
+			{
 				"name": "Bank Indonesia X Lampung Begawi (Event Management) - 2024",
 				"description": "Bank Indonesia X Lampung Begawi is a system designed to facilitate the management of events, from the management of event participants, event schedules, event speakers, and other event data.",
 				"link": "https://lampungbegawi.com/",
