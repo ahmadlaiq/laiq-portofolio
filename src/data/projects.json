@@ -3,6 +3,29 @@
 		"section": "Real Projects",
 		"projects": [
 			{
+				"name": "PT Petrokimia Gresik (HRIS) - 2024",
+				"description": "PT Petrokimia Gresik (HRIS) is a system designed to facilitate online attendance employees with mobile application (Flutter), Employee Reimbursment system , E-Administration for employees (Create digital transformation for secure document archive, and Employee Approval administration)",
+				"link": "/",
+				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1729003422/Screenshot_2024-10-15_214226_cetdse.png",
+				"technologies": [
+					"Laravel",
+					"jQuery",
+					"Bootstrap",
+					"PostgreSQL",
+					"Microsoft SQL Server",
+					"Redis",
+					"RESTful API",
+					"Api Documenation",
+					"Design Pattern",
+					"Unit Test",
+					"JWT Authentication",
+					"Nginx",
+					"Gitlab CI/CD",
+					"Docker",
+					"Google Cloud Platform"
+				]
+			},
+			{
 				"name": "Kementrian Energi Dan Sumber Daya Mineral Minerba One Data (MOD) - 2024",
 				"description": "Kementrian Energi Dan Sumber Daya Mineral Minerba One Data (MOD) is a system designed to facilitate the management of data in the mining sector, from the management of mining companies, mining permits, mining production, and other data.",
 				"link": "https://minerbaone.com/",
