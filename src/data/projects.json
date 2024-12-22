@@ -3,6 +3,23 @@
 		"section": "Real Projects",
 		"projects": [
 			{
+				"name": "PT Maulana International (Discord Chat Scraper) - 2024",
+				"description": "Discord Chat Scraper is a powerful tool designed to scrape, process, and analyze chat data from Discord servers. Built with a robust backend using Express.js, it employs Puppeteer for automated browser interactions, Axios for API requests, and Web Socket for real-time communication. The data is stored in a scalable MongoDB database, while the frontend is styled with Tailwind CSS. The application can generate reports in various formats using PDF Kit and Exceljs, making it an all-in-one solution for data extraction, transformation, and reporting.",
+				"link": "/",
+				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1734875595/Channel_Selection_llql7x.png",
+				"img2": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1734875595/Scraped_Data_efvviq.png",
+				"technologies": [
+					"Express.js",
+					"Puppeteer",
+					"Axios",
+					"Web Socket",
+					"MongoDB",
+					"Tailwind CSS",
+					"PDF Kit",
+					"Exceljs"
+				]
+			},
+			{
 				"name": "PT Petrokimia Gresik (HRIS) - 2024",
 				"description": "PT Petrokimia Gresik (HRIS) is a system designed to facilitate online attendance employees with mobile application (Flutter), Employee Reimbursment system , E-Administration for employees (Create digital transformation for secure document archive, and Employee Approval administration)",
 				"link": "/",
@@ -16,8 +33,6 @@
 					"Redis",
 					"RESTful API",
 					"Api Documenation",
-					"Design Pattern",
-					"Unit Test",
 					"JWT Authentication",
 					"Nginx",
 					"Gitlab CI/CD",
@@ -36,7 +51,6 @@
 					"RESTful API",
 					"Api Documenation",
 					"Design Pattern",
-					"Unit Test",
 					"JWT Authentication"
 				]
 			},
@@ -70,7 +84,6 @@
 					"RESTful API",
 					"JWT Authentication",
 					"Design Pattern",
-					"Unit Test",
 					"Api Documenation",
 					"Gihub CI/CD"
 				]
@@ -100,12 +113,11 @@
 					"Bootstrap",
 					"jQuery",
 					"MySQL",
-					" RESTful API",
+					"RESTful API",
 					"Alpine.js",
 					"Livewire",
 					"Api Documenation",
 					"Design Pattern",
-					"Unit Test",
 					"Gihub CI/CD",
 					"AppScript",
 					"Google Sheet API"
@@ -116,7 +128,7 @@
 				"description": "PPS Fathul Ulum CMS is a Content Management System (CMS) designed to facilitate the management of school websites, from the management of school profiles, news, events, galleries, and other content.",
 				"link": "https://fatchululumpacet.net/",
 				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1718164742/cms-fatchululum_dooada.png",
-				"technologies": ["Laravel", "Bootstrap", "jQuery", "MySQL", "Unit Test", "Gihub CI/CD"]
+				"technologies": ["Laravel", "Bootstrap", "jQuery", "MySQL", "Gihub CI/CD"]
 			},
 			{
 				"name": "PPDB PPS Fathul Ulum (New Student Admissions) - 2024",
@@ -143,7 +155,6 @@
 					"Tailwind CSS",
 					"jQuery",
 					"Design Pattern",
-					"Unit Test",
 					"Gitlab CI/CD",
 					"Nginx",
 					"Docker",
@@ -195,7 +206,6 @@
 					"RESTful API",
 					"JWT Authentication",
 					"Design Pattern",
-					"Unit Test",
 					"Api Documenation"
 				]
 			},

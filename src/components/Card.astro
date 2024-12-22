@@ -1,106 +1,263 @@
 ---
+// Card.astro
 type Props = {
-	title: string
-	description?: string
-	href: string
-	date?: string
-	tags?: string[]
-	img?: string
+    title: string
+    description?: string
+    href: string
+    date?: string
+    tags?: string[]
+    img?: string
+    img2?: string
 }
 
-const { href, title, description, date, tags, img } = Astro.props
+const { href, title, description, date, tags, img, img2 } = Astro.props
 ---
 
 <a class="card" href={href} target="_blank" rel="noopener noreferrer">
-	<img
-		src={img}
-		loading="lazy"
-		class="image-container"
-		alt="img of Astro Components"
-		decoding="async"
-	/>
-	<h2>{title}</h2>
-	{description && <p>{description}</p>}
-	{date && <p class="date">{date}</p>}
-	{
-		tags && (
-			<div class="tag-container">
-				{tags.map((tag) => (
-					<span class="tag">{tag}</span>
-				))}
-			</div>
-		)
-	}
+    <div class="slider-container">
+        <div class="slider">
+            {img && (
+                <img
+                    src={img}
+                    loading="lazy"
+                    class="slider-image"
+                    alt={`${title} preview 1`}
+                    decoding="async"
+                />
+            )}
+            {img2 && (
+                <img
+                    src={img2}
+                    loading="lazy"
+                    class="slider-image"
+                    alt={`${title} preview 2`}
+                    decoding="async"
+                />
+            )}
+        </div>
+        {img2 && (
+            <div class="slider-nav">
+                <button class="slider-button prev" aria-label="Previous image">❮</button>
+                <button class="slider-button next" aria-label="Next image">❯</button>
+                <div class="slider-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                </div>
+            </div>
+        )}
+    </div>
+    <h2>{title}</h2>
+    {description && <p>{description}</p>}
+    {date && <p class="date">{date}</p>}
+    {tags && (
+        <div class="tag-container">
+            {tags.map((tag) => (
+                <span class="tag">{tag}</span>
+            ))}
+        </div>
+    )}
 </a>
 
 <style>
-	/* responsive img */
-	img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}
-	.card {
-		display: block;
-		padding: 1.5rem;
-		margin: 0.5rem 0;
-		border: none;
-		background-color: transparent;
-		transition: background-color 0.5s ease-out;
-	}
-	.card:hover {
-		background-color: #fff;
-		border: none;
-		border-radius: 5px;
-		box-shadow: 0px 10px 15px -22px rgba(0, 0, 0, 0.1);
-		transform: scale(1.05);
-	}
+    .card {
+        display: block;
+        padding: 1.5rem;
+        margin: 0.5rem 0;
+        border: none;
+        background-color: transparent;
+        transition: background-color 0.5s ease-out;
+    }
+    
+    .card:hover {
+        background-color: #fff;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 10px 15px -22px rgba(0, 0, 0, 0.1);
+        transform: scale(1.05);
+    }
 
-	h2 {
-		font-size: 2rem;
-		font-weight: 500;
-	}
-	p {
-		padding: 0.3rem 0;
-		line-height: 1.8;
-	}
-	.date {
-		font-size: 1.4rem;
-		color: #666;
-	}
-	.tag-container {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 5px;
-	}
-	.tag {
-		font-size: 1.3rem;
-		padding: 3px 10px;
-		background-color: #dfdfdf;
-		margin-right: 10px;
-		border-radius: 50px;
-		white-space: nowrap;
-		display: block;
-	}
+    .slider-container {
+        position: relative;
+        width: 100%;
+        margin: 1.5rem 0;
+        border-radius: 0.625rem;
+        overflow: hidden;
+    }
 
-	.image-container {
-		border-radius: 0.625rem; /* Equivalent to rounded-md */
-		width: 100%; /* Equivalent to w-full */
-		max-height: 100%; /* Equivalent to max-h-full */
-		margin-top: 1.5rem;
-		margin-bottom: 1.5rem; /* Equivalent to my-8 */
-		overflow: hidden;
-		object-fit: cover; /* Equivalent to object-cover */
-	}
-	@media (prefers-color-scheme: dark) {
-		.card:hover {
-			background: #2a2a2a;
-		}
-	}
-	/* Dark mode settings  */
-	@media (prefers-color-scheme: dark) {
-		.tag {
-			background-color: #414141;
-		}
-	}
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 100%;
+    }
+
+    .slider-image {
+        width: 100%;
+        height: auto; /* Allow height to adjust based on aspect ratio */
+        max-height: 600px; /* Set a reasonable maximum height */
+        object-fit: contain; /* Changed from cover to contain */
+        flex-shrink: 0;
+        display: block; /* Removes any potential inline spacing issues */
+    }
+
+    .slider-nav {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+    }
+
+    .slider-button {
+        background-color: rgba(255, 255, 255, 0.3);
+        color: white;
+        border: none;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s ease;
+        font-size: 1.2rem;
+        z-index: 2;
+    }
+
+    .slider-button:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .slider-dots {
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .dot.active {
+        background-color: white;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    p {
+        padding: 0.3rem 0;
+        line-height: 1.8;
+    }
+
+    .date {
+        font-size: 1.4rem;
+        color: #666;
+    }
+
+    .tag-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 1rem;
+    }
+
+    .tag {
+        font-size: 1.3rem;
+        padding: 3px 10px;
+        background-color: #dfdfdf;
+        margin-right: 10px;
+        border-radius: 50px;
+        white-space: nowrap;
+        display: block;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .card:hover {
+            background: #2a2a2a;
+        }
+        .tag {
+            background-color: #414141;
+        }
+    }
 </style>
+
+<script>
+    // Using a self-executing function to avoid global scope pollution
+    (() => {
+        function initializeSliders() {
+            const sliders = document.querySelectorAll('.slider-container');
+            
+            sliders.forEach(container => {
+                const slider = container.querySelector('.slider') as HTMLElement;
+                const prevButton = container.querySelector('.prev');
+                const nextButton = container.querySelector('.next');
+                const dots = container.querySelectorAll('.dot');
+                let currentSlide = 0;
+                
+                if (!slider || !prevButton || !nextButton) return;
+                
+                const totalSlides = slider.children.length;
+                
+                const updateSlide = (newIndex: number) => {
+                    currentSlide = newIndex;
+                    slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+                    
+                    // Update dots
+                    dots.forEach((dot, index) => {
+                        dot.classList.toggle('active', index === currentSlide);
+                    });
+                };
+                
+                // Event listeners for buttons
+                prevButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const newIndex = (currentSlide - 1 + totalSlides) % totalSlides;
+                    updateSlide(newIndex);
+                });
+                
+                nextButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const newIndex = (currentSlide + 1) % totalSlides;
+                    updateSlide(newIndex);
+                });
+                
+                // Event listeners for dots
+                dots.forEach((dot, index) => {
+                    dot.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        updateSlide(index);
+                    });
+                });
+
+                // Optional: Auto-advance slides every 5 seconds
+                setInterval(() => {
+                    const newIndex = (currentSlide + 1) % totalSlides;
+                    updateSlide(newIndex);
+                }, 5000);
+            });
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', initializeSliders);
+
+        // Initialize when Astro swaps pages (if using View Transitions)
+        document.addEventListener('astro:page-load', initializeSliders);
+    })();
+</script>
