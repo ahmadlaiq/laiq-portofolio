@@ -23,7 +23,7 @@
 				"name": "PT Maulana International (Time Tracker with Live Screen Sharing) - 2024",
 				"description": "Time Tracker is a tool for startup companies to monitor remote employee productivity. It helps managers track work time, check daily activities, and detect idle moments automatically. With live screen sharing, managers can supervise work in real-time, ensure transparency, and maintain quality. Intuitive dashboards provide easy access to activity reports, productivity insights, and work data to support better decisions. This app makes managing remote teams easier, improves coordination, and builds a scalable work environment.",
 				"link": "/",
-				"img": "",
+				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1735688603/Dashboard_-_Timetracker_aijbja.png",
 				"img2": "",
 				"technologies": [
 					"Express.js",
@@ -75,8 +75,8 @@
 				]
 			},
 			{
-				"name": "PT Petrokimia Gresik (HRIS) - 2024",
-				"description": "PT Petrokimia Gresik (HRIS) is a system designed to facilitate online attendance employees with mobile application (Flutter), Employee Reimbursment system , E-Administration for employees (Create digital transformation for secure document archive, and Employee Approval administration)",
+				"name": "PT Petrokimia Gresik - Human Resource Information System (HRIS) Development - 2024",
+				"description": "HRIS is a system designed to facilitate online attendance employees with mobile application (Flutter), Employee Reimbursment system , E-Administration for employees (Create digital transformation for secure document archive, and Employee Approval administration)",
 				"link": "/",
 				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1729037405/Screenshot_2024-10-15_214226_gnemlo.png",
 				"technologies": [
