@@ -3,6 +3,26 @@
 		"section": "Real Projects",
 		"projects": [
 			{
+				"name": "PT Maulana International (Time Tracker with Live Screen Sharing) - 2024",
+				"description": "Time Tracker is a tool for startup companies to monitor remote employee productivity. It helps managers track work time, check daily activities, and detect idle moments automatically. With live screen sharing, managers can supervise work in real-time, ensure transparency, and maintain quality. Intuitive dashboards provide easy access to activity reports, productivity insights, and work data to support better decisions. This app makes managing remote teams easier, improves coordination, and builds a scalable work environment.",
+				"link": "/",
+				"img": "",
+				"img2": "",
+				"technologies": [
+					"Express.js",
+					"Web Socket",
+					"RTMP",
+					"PostgreSQL",
+					"Tailwind CSS",
+					"Vue.js",
+					"Electron.js",
+					"Gihub CI/CD",
+					"PM2",
+					"Nginx",
+					"Docker"
+				]
+			},
+			{
 				"name": "PT Maulana International (ChatSift) - 2024",
 				"description": "ChatSift is a tool for scraping, processing, and analyzing chat data, emotes, images, and videos from Slack. Built with Express.js, Puppeteer, Axios, and Web Sockets, the data is managed in MongoDB. The UI, based on Tailwind CSS, provides easy navigation, scraping controls, analytics, and real-time reports.",
 				"link": "/",
