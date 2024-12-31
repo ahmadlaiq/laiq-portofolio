@@ -3,6 +3,24 @@
 		"section": "Real Projects",
 		"projects": [
 			{
+				"name": "PT Maulana International (ChatSift) - 2024",
+				"description": "ChatSift is a tool for scraping, processing, and analyzing chat data, emotes, images, and videos from Slack. Built with Express.js, Puppeteer, Axios, and Web Sockets, the data is managed in MongoDB. The UI, based on Tailwind CSS, provides easy navigation, scraping controls, analytics, and real-time reports.",
+				"link": "/",
+				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1735607164/Signup_-_Chatsift_voyqq0.png",
+				"img2": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1735607163/Scraping_Control_-_Chatsift_pofnv2.png",
+				"technologies": [
+					"Express.js",
+					"Puppeteer",
+					"Axios",
+					"Web Socket",
+					"MongoDB",
+					"Tailwind CSS",
+					"PDF Kit",
+					"Exceljs",
+					"Chartjs"
+				]
+			},
+			{
 				"name": "PT Maulana International (Discord Chat Scraper) - 2024",
 				"description": "Discord Chat Scraper is a powerful tool designed to scrape, process, and analyze chat data from Discord servers. Built with a robust backend using Express.js, it employs Puppeteer for automated browser interactions, Axios for API requests, and Web Socket for real-time communication. The data is stored in a scalable MongoDB database, while the frontend is styled with Tailwind CSS. The application can generate reports in various formats using PDF Kit and Exceljs, making it an all-in-one solution for data extraction, transformation, and reporting.",
 				"link": "/",
