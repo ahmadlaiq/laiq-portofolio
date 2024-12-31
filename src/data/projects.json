@@ -3,6 +3,23 @@
 		"section": "Real Projects",
 		"projects": [
 			{
+				"name": "PT Maulana International (Flip Automation Integration with Third-Party AI API) - 2024",
+				"description": "Developed Flip automation integration with GPT-based third-party AI API to improve the efficiency of financial transaction management. The solution enables automated processes such as data validation, analysis and reporting quickly and accurately. By incorporating AI capabilities for natural language processing, the system can provide deeper insights and accelerate decision-making. This project demonstrates expertise in integrating payment technology with artificial intelligence to create innovative solutions.",
+				"link": "/",
+				"img": "",
+				"img2": "",
+				"technologies": [
+					"Express.js",
+					"Web Socket",
+					"Appium",
+					"Axios",
+					"MongoDB",
+					"Tailwind CSS",
+					"React.js",
+					"OpenAI API"
+				]
+			},
+			{
 				"name": "PT Maulana International (Time Tracker with Live Screen Sharing) - 2024",
 				"description": "Time Tracker is a tool for startup companies to monitor remote employee productivity. It helps managers track work time, check daily activities, and detect idle moments automatically. With live screen sharing, managers can supervise work in real-time, ensure transparency, and maintain quality. Intuitive dashboards provide easy access to activity reports, productivity insights, and work data to support better decisions. This app makes managing remote teams easier, improves coordination, and builds a scalable work environment.",
 				"link": "/",
@@ -166,21 +183,38 @@
 				"description": "PPS Fathul Ulum CMS is a Content Management System (CMS) designed to facilitate the management of school websites, from the management of school profiles, news, events, galleries, and other content.",
 				"link": "https://fatchululumpacet.net/",
 				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1718164742/cms-fatchululum_dooada.png",
-				"technologies": ["Laravel", "Bootstrap", "jQuery", "MySQL", "Gihub CI/CD"]
+				"technologies": [
+					"Laravel",
+					"Bootstrap",
+					"jQuery",
+					"MySQL",
+					"Gihub CI/CD"
+				]
 			},
 			{
 				"name": "PPDB PPS Fathul Ulum (New Student Admissions) - 2024",
 				"description": "PPDB PPS Fathul Ulum is a service system designed to facilitate the automation of the implementation of New Student Admissions (PPDB), from the new student registration process, selection to announcement of selection results through the system.",
 				"link": "https://psb.fatchululumpacet.net/",
 				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1718164746/psb-fatchululum_zq1syf.png",
-				"technologies": ["Laravel", "Bootstrap", "jQuery", "MySQL", "Gihub CI/CD"]
+				"technologies": [
+					"Laravel",
+					"Bootstrap",
+					"jQuery",
+					"MySQL",
+					"Gihub CI/CD"
+				]
 			},
 			{
 				"name": "SMK Kesuma Margoyoso Pati (CMS) - 2024",
 				"description": "SMK Kesuma Margoyoso Pati CMS is a Content Management System (CMS) designed to facilitate the management of school websites, from the management of school profiles, news, events, galleries, and other content.",
 				"link": "https://smkkesumamargoyoso.sch.id/",
 				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1720597195/Macbook-Air-www.smkkesumamargoyoso.sch.id_m2j193.png",
-				"technologies": ["Laravel", "Tailwind CSS", "jQuery", "MySQL"]
+				"technologies": [
+					"Laravel",
+					"Tailwind CSS",
+					"jQuery",
+					"MySQL"
+				]
 			},
 			{
 				"name": "Warkopsans (Order App) - 2024",
@@ -204,21 +238,36 @@
 				"description": "Luluk Store (POS) System is basically a management system for store, where a system user can add, update and delete item from menu and generate bills.",
 				"link": "/",
 				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1718166022/toko-luluk_i6anjn.png",
-				"technologies": ["Laravel", "Bootstrap", "jQuery", "MySQL"]
+				"technologies": [
+					"Laravel",
+					"Bootstrap",
+					"jQuery",
+					"MySQL"
+				]
 			},
 			{
 				"name": "Navisya Mart (POS) System - 2023",
 				"description": "Navisya Mart (POS) System is basically a management system for store, where a system user can add, update and delete item from menu and generate bills.",
 				"link": "/",
 				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1718166034/navisyamart_qx0obh.png",
-				"technologies": ["Laravel", "Bootstrap", "jQuery", "MySQL"]
+				"technologies": [
+					"Laravel",
+					"Bootstrap",
+					"jQuery",
+					"MySQL"
+				]
 			},
 			{
 				"name": "Apotek Vina Point Of Sales (POS) System - 2023",
 				"description": "Point of Sale (POS) System is basically a management system for store, where a system user can add, update and delete item from menu and generate bills.",
 				"link": "/",
 				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1718167146/alter-admin_ugeq2o.png",
-				"technologies": ["Laravel", "Bootstrap", "jQuery", "MySQL"]
+				"technologies": [
+					"Laravel",
+					"Bootstrap",
+					"jQuery",
+					"MySQL"
+				]
 			}
 		]
 	},
@@ -230,7 +279,11 @@
 				"description": "PokeDex is a web application that provides information about Pokemon, such as Pokemon name, type, abilities, and other information.",
 				"link": "https://pokedex97.netlify.app/",
 				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1720597380/Macbook-Air-pokedex97.netlify.app_bckk53.png",
-				"technologies": ["VueJS", "Tailwind CSS", "Axios"]
+				"technologies": [
+					"VueJS",
+					"Tailwind CSS",
+					"Axios"
+				]
 			},
 			{
 				"name": "Eshop RESTful API - 2024",
@@ -252,7 +305,11 @@
 				"description": "Wild vs No Wild : Flask app Using Convolutional Neural Network (CNN) to recognize wild vs no wild animal with very high accuracy up to 95%",
 				"link": "/",
 				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1718167124/wild_vs_nowild_gh8bir.jpg",
-				"technologies": ["Python", "Tensorflow", "Flask"]
+				"technologies": [
+					"Python",
+					"Tensorflow",
+					"Flask"
+				]
 			}
 		]
 	}
