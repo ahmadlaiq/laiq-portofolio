@@ -174,10 +174,11 @@
 					"Alpine.js",
 					"Livewire",
 					"Api Documenation",
-					"Design Pattern",
 					"Gihub CI/CD",
 					"AppScript",
-					"Google Sheet API"
+					"AppSheet",
+					"Looker Studio",
+					"Google Sheet"
 				]
 			},
 			{
@@ -228,7 +229,6 @@
 					"PostgreSQL",
 					"Tailwind CSS",
 					"jQuery",
-					"Design Pattern",
 					"Gitlab CI/CD",
 					"Nginx",
 					"Docker",
@@ -298,7 +298,6 @@
 					"Sequelize ORM",
 					"RESTful API",
 					"JWT Authentication",
-					"Design Pattern",
 					"Api Documenation"
 				]
 			},
