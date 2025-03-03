@@ -3,6 +3,20 @@
 		"section": "Real Projects",
 		"projects": [
 			{
+				"name": "PT Semen Indonesia International (Procurement System Integration) - 2025",
+				"description": "An integrated, efficient, transparent and accountable process of digitizing goods / services procurement to obtain goods / services providers in accordance with the specifications and needs of the company.",
+				"link": "/",
+				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1741007264/Procsi-SII_yowjk1.png",
+				"img2": "",
+				"technologies": [
+					"Laravel",
+					"PostgreSQL",
+					"Redis",
+					"Tailwind CSS",
+					"React.js"
+				]
+			},
+			{
 				"name": "PT Maulana International (Flip Automation Integration with Third-Party AI API) - 2024",
 				"description": "Developed Flip automation integration with GPT-based third-party AI API to improve the efficiency of financial transaction management. The solution enables automated processes such as data validation, analysis and reporting quickly and accurately. By incorporating AI capabilities for natural language processing, the system can provide deeper insights and accelerate decision-making. This project demonstrates expertise in integrating payment technology with artificial intelligence to create innovative solutions.",
 				"link": "/",
