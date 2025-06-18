@@ -9,7 +9,7 @@
 				"img": "https://res.cloudinary.com/dkn7qstgs/image/upload/v1750171495/kabaria_kbvf3i.png",
 				"img2": "",
 				"technologies": [
-					"Laravel",
+					"Golang",
 					"PostgreSQL",
 					"Redis",
 					"Tailwind CSS",
